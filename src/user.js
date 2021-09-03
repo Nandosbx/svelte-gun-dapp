@@ -3,6 +3,6 @@ import 'gun/sea'
 import 'gun/axe'
 
 //DB
-export const db= GUN()
+export const db = GUN()
 
-export const user = db.user().recall({sessionStorage: true})
+export const user = db.user().recall({ sessionStorage: true })
